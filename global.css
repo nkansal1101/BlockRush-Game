@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* shadcn tokens, themed to the game's blue palette */
+:root {
+  --background: 226 62% 22%;
+  --foreground: 0 0% 100%;
+  --card: 226 60% 28%;
+  --card-foreground: 0 0% 100%;
+  --primary: 142 62% 45%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 215 78% 56%;
+  --secondary-foreground: 0 0% 100%;
+  --muted: 226 55% 18%;
+  --muted-foreground: 223 100% 86%;
+  --accent: 43 100% 62%;
+  --accent-foreground: 30 80% 15%;
+  --destructive: 352 85% 60%;
+  --destructive-foreground: 0 0% 100%;
+  --border: 217 90% 70%;
+  --input: 226 40% 40%;
+  --ring: 217 90% 70%;
+}
