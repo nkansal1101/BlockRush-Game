@@ -2,6 +2,8 @@
 
 Single-player block puzzle for Android. Pure React Native views, PanResponder drag-and-drop, Animated effects.
 
+> **Note:** This is a reverse-engineered app. We used [rea.tools](https://rea.tools/) to reverse engineer the original and build this app.
+
 - `src/game/engine.ts`  board, shapes, placing, line clears, scoring
 - `src/game/levels.ts`  50 deterministic levels (score / lines / gems goals); raise `LEVEL_COUNT` to add more
 - `src/screens/`        Home, LevelSelect, GameScreen
